@@ -98,7 +98,15 @@ module.exports = {
       inject: true,
       hash: true,
       template: './src/contact.html',
-      filename: 'contact.html'
+      filename: 'contact.html',
+      favicon: 'icone.png'
+    }),
+    new HtmlWebpackPlugin({
+      inject: true,
+      hash: true,
+      template: './src/beers.html',
+      filename: 'beers.html',
+      favicon: 'icone.png'
     })
   ]
 };

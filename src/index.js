@@ -1,8 +1,11 @@
 import css from './main.scss';
+import Axios from 'axios'
 
 //import Bulma from 'bulma'
 import './js/alert'
 import './js/control-form'
+import './js/beers.js'
+
 
 
 let texte = "Hello"
@@ -12,6 +15,7 @@ setTimeout(() => {
 
     //alert('test');
     }, 500);
-    
-    document.querySelector('.header').innerHTML = 'Yahoo'
-    
+    if (document.querySelector('.header')) {
+        document.querySelector('.header').innerHTML = 'Yahoo'
+        
+    }
