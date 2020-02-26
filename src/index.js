@@ -1,4 +1,5 @@
 import css from './main.scss';
+import Jquery from 'jquery'
 
 let texte = "Hello"
 
@@ -9,3 +10,4 @@ setTimeout(() => {
     }, 500);
     
     document.querySelector('.header').innerHTML = 'Yahoo'
+    Jquery(".header").html('jquery')
