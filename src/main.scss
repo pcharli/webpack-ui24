@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("./assets/fonts/BebasNeue-Regular.ttf") format("ttf"); // adapter l'url en fonction du nom de votre fichier
+  }
+$color: blue;
+body {
+    background-color: $color;
+    background: url(assets/img/sambre2.jpg);
+    font-family: 'Bebas Neue', cursive;
+    color: $color;
+}
+
+
+@keyframes MyAnimation {
+  0% { left: 0; }	
+ 50% { left: 200px; }	
+100% { left: 20px; }	
+}
+
+.test {
+  animation: MyAnimation 2s; /* IE >9, Fx >15, Op >12.0 */
+}
