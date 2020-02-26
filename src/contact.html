@@ -4,11 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Conf webpack</title>
-    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<h1>Contactez-nous</h1>
-<img src="assets/img/portrait.jpg" alt="">
-<script src="main.js"></script>
+<div class="container content">
+    <h1 class="title">Contactez-nous</h1>
+
+    <form action="" class="form">
+
+        <div class="field">
+            <label class="label" for="nom">nom :</label>
+            <div class="control">
+                <input class="input" type="text" required>
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label" for="">Prénom :</label>
+            <div class="control"><input type="text" required class="input"></div>
+        </div>
+
+        <div class="field">
+            <label class="label is-required" for="">Email :</label>
+            <div class="control"><input type="email" required class="input"></div>
+            <p class="help is-danger">Ce champ est requis</p>
+        </div>
+       
+        <div class="field">
+            <label class="label" for="">Pays :</label>
+            <div class="control"><input type="text" class="input"></div>
+        </div>
+
+        <div class="field">
+            <label class="label" for="">Région :</label>
+            <div class="control"><input type="text" class="input"></div>
+        </div>
+        <div class="field is-grouped is-grouped-centered">
+            <button class="button is-primary" disabled>Go</button>
+        </div>
+    </form>
+</div>
 </body>
 </html>

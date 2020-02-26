@@ -1,5 +1,9 @@
 import css from './main.scss';
-import Jquery from 'jquery'
+
+//import Bulma from 'bulma'
+import './js/alert'
+import './js/control-form'
+
 
 let texte = "Hello"
 
@@ -10,4 +14,4 @@ setTimeout(() => {
     }, 500);
     
     document.querySelector('.header').innerHTML = 'Yahoo'
-    Jquery(".header").html('jquery')
+    

@@ -10,6 +10,14 @@ body {
     color: $color;
 }
 
+$white: white;
+$red: red;
+
+form.form {
+  background-color: $white;
+  padding: 2rem;
+}
+
 
 @keyframes MyAnimation {
   0% { left: 0; }	
@@ -20,3 +28,7 @@ body {
 .test {
   animation: MyAnimation 2s; /* IE >9, Fx >15, Op >12.0 */
 }
+
+
+
+@import "~bulma/bulma";
